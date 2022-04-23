@@ -6,6 +6,30 @@
 
 /*----------/_Standars_/----------*/
 
+/* Borders */
+
+.borderred {
+    border-style: solid;
+    border-color: red;
+}
+
+.bordergreen {
+    border-style: solid;
+    border-color: green;
+}
+
+.borderblue {
+    border-style: solid;
+    border-color: blue;
+}
+
+.borderyellow {
+    border-style: solid;
+    border-color: yellow;
+}
+
+/*--------------------*/
+
 .center {
     text-align: center;
 }
@@ -100,8 +124,6 @@ header {
 .whatsapp-fixed {
     display: none;
 }
-
-/*----------------------------------*/
 
 /*-------------///////////------------*/
 /*------------///_NAV_///-------------*/
@@ -327,46 +349,18 @@ section#home-main-grid-courses-workshops-container h2 {
 
 .home-main-grid-courses-workshops-container-grid {
     display: grid;
-    grid-template-rows: 25rem 25rem;
+    grid-template-rows: repeat(2, 25rem);
     grid-gap: 0.625rem;
     justify-content: center;
 }
 
-.home-workshop-1 {
+.home-main-courses-workshop-display-images {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(../images/workshop-1.png);
-    background-size: cover;
     height: 25rem;
 }
 
-.home-workshop-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(../images/workshop-2.png);
-    background-size: cover;
-    height: 25rem;
-}
-
-.home-course-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(../images/course-1.png);
-    background-size: cover;
-    height: 25rem;
-}
-
-.home-course-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(../images/course-2.png);
-    background-size: cover;
-    height: 25rem;
-}
 
 /*----------home-main-grid-newsletter----------*/
 
@@ -549,146 +543,18 @@ section#smm-main-grid-plans-container {
 /*---------///_COURSES AND WORKSHOPS_///---------*/
 /*--------/////////////////////////////--------*/
 
-.courses-workshops-main-grid {
+.courses-workshops-main-display {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/*----------Workshops----------*/
-
-.workshop-1 {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    padding-left: 9,375rem;
-    padding-right: 9,375rem;
+.courses-workshops-main-display-workshops {
     margin-bottom: 2rem;
-    max-width: 18.75rem;
-    max-height: 25rem;
-    background-image: url(../images/workshop-1.png); 
 }
 
-.workshop-2 {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    padding-left: 9,375rem;
-    padding-right: 9,375rem;
+.courses-workshops-main-display-courses {
     margin-bottom: 2rem;
-    max-width: 18.75rem;
-    max-height: 25rem;
-    background-image: url(../images/workshop-2.png); 
-}
-
-.workshop-3 {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    padding-left: 9,375rem;
-    padding-right: 9,375rem;
-    margin-bottom: 2rem;
-    max-width: 18.75rem;
-    max-height: 25rem;
-    background-image: url(../images/workshop-3.png); 
-}
-
-.workshop-4 {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    padding-left: 9,375rem;
-    padding-right: 9,375rem;
-    margin-bottom: 2rem;
-    max-width: 18.75rem;
-    max-height: 25rem;
-    background-image: url(../images/workshop-4.png); 
-}
-
-.workshop-5 {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    padding-left: 9,375rem;
-    padding-right: 9,375rem;
-    margin-bottom: 2rem;
-    max-width: 18.75rem;
-    max-height: 25rem;
-    background-image: url(../images/workshop-5.png); 
-}
-
-.workshop-6 {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    padding-left: 9,375rem;
-    padding-right: 9,375rem;
-    margin-bottom: 2rem;
-    max-width: 18.75rem;
-    max-height: 25rem;
-    background-image: url(../images/workshop-6.png); 
-}
-
-/*----------Courses----------*/
-
-.course-1 {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    padding-left: 9,375rem;
-    padding-right: 9,375rem;
-    margin-bottom: 2rem;
-    max-width: 18.75rem;
-    max-height: 25rem;
-    background-image: url(../images/course-1.png); 
-}
-
-.course-2 {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    padding-left: 9,375rem;
-    padding-right: 9,375rem;
-    margin-bottom: 2rem;
-    max-width: 18.75rem;
-    max-height: 25rem;
-    background-image: url(../images/course-2.png); 
-}
-
-.course-3 {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    padding-left: 9,375rem;
-    padding-right: 9,375rem;
-    margin-bottom: 2rem;
-    max-width: 18.75rem;
-    max-height: 25rem;
-    background-image: url(../images/course-3.png); 
-}
-
-.course-4 {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    padding-left: 9,375rem;
-    padding-right: 9,375rem;
-    margin-bottom: 2rem;
-    max-width: 18.75rem;
-    max-height: 25rem;
-    background-image: url(../images/course-4.png); 
-}
-
-.course-5 {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    padding-left: 9,375rem;
-    padding-right: 9,375rem;
-    margin-bottom: 2rem;
-    max-width: 18.75rem;
-    max-height: 25rem;
-    background-image: url(../images/course-5.png); 
-}
-
-.course-6 {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    padding-left: 9,375rem;
-    padding-right: 9,375rem;
-    margin-bottom: 2rem;
-    max-width: 18.75rem;
-    max-height: 25rem;
-    background-image: url(../images/course-6.png); 
 }
 
 /*----------/////////////////////----------*/
@@ -701,22 +567,19 @@ section#smm-main-grid-plans-container {
     /*---------///_COURSES AND WORKSHOPS_///---------*/
     /*--------/////////////////////////////--------*/
 
-    .courses-workshops-main-grid {
+    .courses-workshops-main-display {
         display: grid;
-        grid-template-columns: 68.75rem;
+        grid-template-columns: 75rem;
         grid-template-rows: repeat(2, 70rem);
+
     }
 
-    .courses-workshops-main-grid-workshops-grid {
+    .courses-workshops-main-display-subgrid {
         display: grid;
         grid-template-columns: repeat(3,25rem);
         grid-template-rows: repeat(2, 30rem);
-    }
-
-    .courses-workshops-main-grid-courses-grid {
-        display: grid;
-        grid-template-columns: repeat(3,25rem);
-        grid-template-rows: repeat(2, 30rem);
+        align-items: center;
+        justify-items: center;
     }
 }
 
@@ -985,12 +848,11 @@ section#smm-main-grid-plans-container {
     /*---------///_COURSES AND WORKSHOPS_///---------*/
     /*--------/////////////////////////////--------*/
 
-    .courses-workshops-main-grid {
+    .courses-workshops-main-display {
         flex-direction: row;
         justify-content: space-around;
     }
 
 }
-
 
 
