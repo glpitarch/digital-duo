@@ -65,6 +65,8 @@
     font-weight: bold;
 }
 
+/*----------Transitions----------*/
+
 .link-2colors {
     text-align: center;
 }
@@ -85,6 +87,101 @@
 
 }
 
+/*----------Animations----------*/
+
+.whatsapp-fixed {
+    animation-name: animation-1;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+}
+
+@keyframes animation-1 {
+    0% {
+        opacity: 100%;
+    }
+
+    25% {
+        opacity: 75%;
+    }
+
+    50% {
+        opacity: 50%;
+        transform: rotateY(360deg);
+    }
+
+    75% {
+        opacity: 75%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+/* ----------------------------------- */
+
+.animation-2 {
+    animation-name: animation-2;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+}
+
+@keyframes animation-2 {
+    0% {
+        font-size: 2rem;
+    }
+
+
+    25% {
+        font-size: 1.5rem;
+        background-color: black;
+        color: white;
+    }
+
+    50% {
+        font-size: 2rem;
+        background-color: white;
+        color: black;
+    }
+
+    75% {
+        font-size: 1.5rem;
+        background-color: black;
+        color: white;
+    }
+
+    100% {
+        font-size: 2rem;
+        background-color: white;
+        color: black;
+    }
+}
+
+/* ----------------------------------- */
+
+.footer-webs img:hover {
+    animation-name: animation-3;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+}
+
+@keyframes animation-3 {
+    0% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
 /*-----------//////////////---------*/
 /*----------///_HEADER_///----------*/
 /*---------//////////////-----------*/
@@ -94,9 +191,9 @@ header {
     justify-content: space-evenly;
     align-items: center;
     max-height: 10rem;
-    background-color: #ecd4f8;
     border-bottom-style: solid;
     border-bottom-color: black;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(178, 140, 253) 35%, rgb(75, 191, 197) 100%);
 }
 
 .header-user {
@@ -140,15 +237,19 @@ nav {
 /*----------//////////////------------*/
 
 footer {
-    background-color: #ecd4f8;
     border-top-style: solid;
     border-top-color: black;
+    background: linear-gradient(90deg, rgb(75, 191, 197) 0%, rgba(125,82,255,0) 23%, #7d52ff 100%);
 }
 
 .footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.footer-services ul li:hover {
+    text-decoration: underline;
 }
 
 /*----------Home-Footer-Contact Data----------*/
