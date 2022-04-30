@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /*----------/_Standars_/----------*/
@@ -94,6 +95,8 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-duration: 5s;
+    padding: 1.5rem;
+    
 }
 
 @keyframes animation-1 {
@@ -228,7 +231,6 @@ header {
 
 nav {
     display: none;
-    max-height: 0;
     font-size: 1.10rem;
 }
 
@@ -317,6 +319,7 @@ footer {
     text-align: center;
     color: white;
     padding: 0.40rem;
+    list-style: none;
 }
 
 /*-------------////////////-----------*/
@@ -730,8 +733,6 @@ section#smm-main-grid-plans-container {
     .whatsapp-fixed {
     display: inline-block;
     position: fixed;
-    top: 1.25rem;
-    right: 1.25rem;
 }
 
     /*----------///////////----------*/
