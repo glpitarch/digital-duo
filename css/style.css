@@ -7,26 +7,9 @@
 
 /*----------/_Standars_/----------*/
 
-/* Borders */
-
-.borderred {
-    border-style: solid;
-    border-color: red;
-}
-
-.bordergreen {
-    border-style: solid;
-    border-color: green;
-}
-
-.borderblue {
-    border-style: solid;
-    border-color: blue;
-}
-
-.borderyellow {
-    border-style: solid;
-    border-color: yellow;
+.button {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
 }
 
 /*--------------------*/
@@ -64,6 +47,10 @@
 
 .weight {
     font-weight: bold;
+}
+
+.fz {
+    font-size: 1.2rem;
 }
 
 /*----------Transitions----------*/
@@ -129,6 +116,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-duration: 10s;
+    padding: 0.9rem;
 }
 
 @keyframes animation-2 {
@@ -199,26 +187,6 @@ header {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(178, 140, 253) 35%, rgb(75, 191, 197) 100%);
 }
 
-.header-user {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.header-user-icon {
-    max-width: 2rem;
-    max-height: 2rem;
-}
-
-.header-menu-icon {
-    max-width: 2rem;
-    max-height: 2rem;
-}
-
-.header-user ul {
-    display: none;
-}
-
 /*----------Whatsapp Fixed----------*/
 
 .whatsapp-fixed {
@@ -229,9 +197,8 @@ header {
 /*------------///_NAV_///-------------*/
 /*-----------///////////--------------*/
 
-nav {
-    display: none;
-    font-size: 1.10rem;
+nav li {
+    padding: 1rem;
 }
 
 /*------------//////////////----------*/
@@ -244,12 +211,6 @@ footer {
     background: linear-gradient(90deg, rgb(75, 191, 197) 0%, rgba(125,82,255,0) 23%, #7d52ff 100%);
 }
 
-.footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .footer-services ul li:hover {
     text-decoration: underline;
 }
@@ -259,7 +220,6 @@ footer {
 .footer-contact-data ul li {
     list-style-type: none;
     padding: 0.25rem;
-    text-align: center;
 }
 
 /*----------Home-Footer-Services----------*/
@@ -291,6 +251,7 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+
 .footer-webs h4 {
     background-color: black;
     color: white;
@@ -326,34 +287,6 @@ footer {
 /*------------///_HOME_///------------*/
 /*-----------////////////-------------*/
 
-/*----------General-Grid----------*/
-
-.general-grid {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "nav"
-    "main"
-    "footer"
-    ;
-}
-
-header {
-    grid-area: header;
-}
-
-nav {
-    grid-area: nav;
-}
-
-main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
-}
-
 /*----------Home-Main----------*/
 
 /*----------Home-Main-Grid----------*/
@@ -366,7 +299,7 @@ footer {
     "home-main-grid-courses-workshops-container"
     "home-main-grid-newsletter-container"
     ;
-    min-height: 250rem;
+    min-height: 270rem;
     align-content: space-around;
 }
 
@@ -475,6 +408,7 @@ section#home-main-grid-newsletter-container {
     justify-content: end;
     background-image: url(../images/newsletter.png);
     background-size: cover;
+    min-height: 30rem;
 }
 
 section#home-main-grid-newsletter-container h2 {
@@ -497,6 +431,7 @@ section#home-main-grid-newsletter-container p {
 
 section#home-main-grid-newsletter-container form {
     text-align: center;
+    min-height: 8rem;
 }
 
 section#home-main-grid-newsletter-container form input {
@@ -573,6 +508,15 @@ section#smm-main-grid-plans-container {
 
 .smm-main-grid-plans-container-table {
     display: none;
+}
+
+/*--------------Table---------------*/
+
+.padding-table {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 /*----------///////////////----------*/
@@ -661,11 +605,20 @@ section#smm-main-grid-plans-container {
     margin-bottom: 2rem;
 }
 
+.courses-workshops-separation-ends {
+    margin-bottom: 2rem;
+}
+
+.courses-workshops-separation-middle {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
 /*----------/////////////////////----------*/
 /*---------///_MEDIA QUERIES_///---------*/
 /*--------/////////////////////--------*/
 
-@media screen and (min-width: 1440px) {
+@media (min-width: 1440px) {
 
     /*----------/////////////////////////////----------*/
     /*---------///_COURSES AND WORKSHOPS_///---------*/
@@ -687,46 +640,11 @@ section#smm-main-grid-plans-container {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
 
     /*----------//////////////----------*/
     /*---------///_HEADER_///---------*/
     /*--------//////////////--------*/
-
-    .header-user-icon {
-        max-width: 3.75rem;
-        max-height: 3.75rem;
-    }
-
-    .header-user ul {
-        display:block
-    }
-
-    .header-menu-icon {
-        display: none;
-    }
-
-    .header-user {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .header-user ul {
-        display: inline-block;
-        list-style: none;
-        padding: 0.25rem;
-    }
-
-    .header-user ul li {
-        padding: 0.15rem;
-        text-align: end;
-    }
-
-    .header-user ul li a {
-        padding: 0.15rem;
-        color: black;
-        text-decoration: none;
-    }
 
     /*----------Whatsapp Fixed----------*/
 
@@ -742,45 +660,8 @@ section#smm-main-grid-plans-container {
     nav {
         display: flex;
         justify-content: center;
-        padding: 2.5rem;
-        background-color: black;
-    }
-
-    nav ul {
-        align-self: center;
-        color: white;
-    }
-
-    nav li {
-        display: inline-block;
         padding: 2rem;
-    }
-
-    .nav-submenu {
-        display: none;
-        position: absolute;
-    }
-
-    .nav-services:hover ul {
-        display: flex;
-        flex-direction: column;
         background-color: black;
-        color: white;
-    }
-
-    nav ul li:hover {
-        text-decoration: underline;
-        text-decoration-color: white;
-    }
-
-    nav ul li a:hover {
-        text-decoration: underline;
-        text-decoration-color: white;
-    }
-
-    nav li a {
-        text-decoration: none;
-        color: white;
     }
 
     /*----------//////////////----------*/
@@ -858,12 +739,12 @@ section#smm-main-grid-plans-container {
 
     .home-main-grid-courses-workshops-container-grid {
         grid-template-columns: 18.75rem 18.75rem;
+        margin-bottom: 2rem;
     }
 
     /*----------home-main-grid-newsletter----------*/
 
     section#home-main-grid-newsletter-container {
-        align-content: space-between;
         background-attachment: fixed;
     }
 

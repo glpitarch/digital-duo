@@ -13,100 +13,102 @@
 <!---------///_BODY_///--------->
 <!--------////////////-------->
 
-<body>
+<body class="container-fluid">
+
+    <!----------//////////////---------->
+    <!---------///_HEADER_///--------->
+    <!--------//////////////-------->
+
+    <header class="row">
+
+            <!----------Whatsapp-Fixed---------->
+        
+            <div>
+                <img src="../images/icons/whatsapp.png" alt="Icono de WhatsApp" class="whatsapp-fixed">
+            </div>
+
+            <!----------Header-Logo---------->
+
+            <div class="col center"> 
+                <a href="../index.html"><img src="../images/logo.png" alt="Logo de la Marca Digital Duo"></a>
+            </div>
+
+    </header>
+
+    <!----------/////////////////---------->
+    <!---------///_Navigator_///--------->
+    <!--------/////////////////-------->
+
+    <div class="row">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <!---------- User Menu ---------->
+
+            <div class="dropdown">
+
+                <a class="btn btn-secondary dropdown-toggle button" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"><img src="../images/icons/user.png" alt="Icono de Usuario No Registrado a la Página" class="header-user-icon"></a>
             
-    <!----------/_GRID_/---------->
-
-    <div class="container-fluid">
-
-        <!----------//////////////---------->
-        <!---------///_HEADER_///--------->
-        <!--------//////////////-------->
-
-        <header class="row">
-
-                <!----------Whatsapp-Fixed---------->
-            
-                <div>
-                    <img src="../images/icons/whatsapp.png" alt="Icono de WhatsApp" class="whatsapp-fixed">
-                </div>
-
-                <!----------Header-Logo---------->
-
-                <div class="col center"> 
-                    <a href="../index.html"><img src="../images/logo.png" alt="Logo de la Marca Digital Duo"></a>
-                </div>
-
-                <!----------Header-User---------->
-
-<!--                 <div class="col">
-                    <img src="../images/icons/user.png" alt="Icono de Usuario No Registrado a la Página" class="header-user-icon">
-                    <ul>
-                        <li value="username">Anónimo</li>
-                        <li><a href="login.html">Iniciar sesión</a></li>
-                        <li><a href="registration.html">Registrarse</a></li>
-                    </ul>
-                </div> -->
-
-
-        </header>
-
-        <!----------/////////////////---------->
-        <!---------///_Navigator_///--------->
-        <!--------/////////////////-------->
-
-        <div class="row">
-
-            <div class="col justify-self-center">
-
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-                    <a class="navbar-brand" href="#"><img src="../images/icons/user.png" alt="Icono de Usuario No Registrado a la Página" class="header-user-icon"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
-                        <ul class="navbar-nav">
-
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
-                            </li>
-                            
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown link
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            
-                        </ul>
-                    </div>
-
-                </nav>
+                <ul class="dropdown-menu weight fz" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Anónimo</a></li>
+                    <li><a class="dropdown-item" href="login.html">Iniciar sesión</a></li>
+                    <li><a class="dropdown-item" href="registration.html">Registrarse</a></li>
+                </ul>
 
             </div>
 
-        </div>
+            <!---------- Burger Menu ---------->
 
-        <!----------////////////---------->
-        <!---------///_MAIN_///--------->
-        <!--------////////////-------->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <main class="row">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+
+                <ul class="navbar-nav weight fz">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about-us.html">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+
+                        <ul class="dropdown-menu weight fz " aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="advices.html">Asesorias</a></li>
+                            <li><a class="dropdown-item" href="design-your-brand.html">Diseña tu marca</a></li>
+                            <li><a class="dropdown-item" href="design-your-web.html">Diseño web</a></li>
+                            <li><a class="dropdown-item" href="social-media-management.html">Gestión de redes sociales</a></li>
+                            <li><a class="dropdown-item" href="advertising.html">Publicidad</a></li>
+                            <li><a class="dropdown-item" href="e-commerce.html">E-commerce</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses-workshops.html">Cursos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Recursos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contacto</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+    <!----------////////////---------->
+    <!---------///_MAIN_///--------->
+    <!--------////////////-------->
+
+    <main class="row">
 
             <h1 class="center margin-top-bottom">Asesorias</h1>
             
@@ -136,93 +138,89 @@
             <div class="link-2colors margin-top-bottom">
                 <a href="contact-us.html"><p> Agendemos una Reunión</p></a>
             </div>
-            
-        </main>
+        
+    </main>
 
-        <!----------//////////////---------->
-        <!---------///_FOOTER_///--------->
-        <!--------//////////////-------->
+    <!----------//////////////---------->
+    <!---------///_FOOTER_///--------->
+    <!--------//////////////-------->
 
-        <footer class="row footer">
+    <footer class="row footer">
 
-            <div class="container-fluid">
+        <div class="container-fluid">
 
-                <div class="row">
+            <div class="row">
 
-                    <!----------Footer-Contact-Data---------->
+                <!----------Footer-Contact-Data---------->
 
-                    <div class="col-xs-12 col-md-4 center footer-contact-data">
-                        <a href="../index.html"><img src="../images/logo.png" alt="Logo de la Marca Digital Duo"></a>
-                        <div>
-                            <ul class="p-0">
-                                <li>Argentina</li>
-                                <li>Gral. San Martin</li>
-                                <li>+54 11 3888-9974</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                        <!----------Footer-Services---------->
-
-                    <div class="col-xs-12 col-md-4 justify-content-center footer-services">
-                        <h4>Servicios</h4>
+                <div class="col-xs-4 col-md-4 center footer-contact-data">
+                    <a href="../index.html"><img src="../images/logo.png" alt="Logo de la Marca Digital Duo"></a>
+                    <div>
                         <ul class="p-0">
-                            <li><a href="advices.html">Asesorias</a></li>
-                            <li><a href="design-your-brand.html">Diseña tu marca</a></li>
-                            <li><a href="design-your-web.html">Diseño web</a></li>
-                            <li><a href="social-media-management.html">Gestión de redes sociales</a></li>
-                            <li><a href="advertising.html">Publicidad</a></li>
-                            <li><a href="e-commerce.html">E-commerce</a></li>
+                            <li>Argentina</li>
+                            <li>Gral. San Martin</li>
+                            <li>+54 11 3888-9974</li>
                         </ul>
                     </div>
+                </div>
 
-                    <!----------Footer-Webs---------->
+                    <!----------Footer-Services---------->
 
-                    <div class="col-xs-12 col-md-4 footer-webs">
+                <div class="col-xs-4 col-md-4 footer-services">
+                    <h4>Servicios</h4>
+                    <ul class="p-0">
+                        <li><a href="advices.html">Asesorias</a></li>
+                        <li><a href="design-your-brand.html">Diseña tu marca</a></li>
+                        <li><a href="design-your-web.html">Diseño web</a></li>
+                        <li><a href="social-media-management.html">Gestión de redes sociales</a></li>
+                        <li><a href="advertising.html">Publicidad</a></li>
+                        <li><a href="e-commerce.html">E-commerce</a></li>
+                    </ul>
+                </div>
 
-                        <h4>Seguinos en las redes</h4>
-            
-                        <div class="footer-webs-1">
-                            <img src="../images/icons/twitter.png" alt="Icono de la Red Social Twitter">
-                            <img src="../images/icons/facebook.png" alt="Icono de la Red Social Facebook">
-                        </div>
+                <!----------Footer-Webs---------->
 
-                        <div class="footer-webs-2">
-                            <img src="../images/icons/pinterest.png" alt="Icono de la Red Social Pinerest">
-                            <img src="../images/icons/instagram.png" alt="Icono de la Red Social Instagram">
-                        </div>
-                        
+                <div class="col-xs-4 col-md-4 footer-webs">
+
+                    <h4>Seguinos en las redes</h4>
+        
+                    <div class="footer-webs-1">
+                        <img src="../images/icons/twitter.png" alt="Icono de la Red Social Twitter">
+                        <img src="../images/icons/facebook.png" alt="Icono de la Red Social Facebook">
                     </div>
 
+                    <div class="footer-webs-2">
+                        <img src="../images/icons/pinterest.png" alt="Icono de la Red Social Pinerest">
+                        <img src="../images/icons/instagram.png" alt="Icono de la Red Social Instagram">
+                    </div>
+                    
                 </div>
 
             </div>
 
-            <!----------Footer-legal---------->
+        </div>
 
-            <div class="container-fluid footer-legal">
+        <!----------Footer-legal---------->
 
-                <div class="row justify-content-center">
+        <div class="container-fluid footer-legal">
 
-                    <ul class="col-xs-5">
-                        <a href="privacy-policy.html"><li>Política de privacidad</li></a>
-                        <li>Política de cookies</li>
-                        <li>Digital Duo 2022 ®</li>
-                    </ul>
+            <div class="row justify-content-center">
 
-                </div>
+                <ul class="col-xs-5">
+                    <a href="privacy-policy.html"><li>Política de privacidad</li></a>
+                    <li>Política de cookies</li>
+                    <li>Digital Duo 2022 ®</li>
+                </ul>
 
             </div>
 
-        </footer>
-    </div>
+        </div>
 
-    <script type="module">
-        import { Toast } from 'bootstrap.esm.min.js'
-      
-        Array.from(document.querySelectorAll('.toast'))
-          .forEach(toastNode => new Toast(toastNode))
-      </script>
+    </footer>
+
+    <!----------Link to Java Bootstrap---------->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 

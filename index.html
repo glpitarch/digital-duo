@@ -14,202 +14,225 @@
 <!---------///_BODY_///--------->
 <!--------////////////-------->
 
-<body>
-            
-    <!----------/_GRID_/---------->
+<body class="container-fluid">
 
-    <div class="general-grid">
+    <!----------//////////////---------->
+    <!---------///_HEADER_///--------->
+    <!--------//////////////-------->
 
-        <!----------//////////////---------->
-        <!---------///_HEADER_///--------->
-        <!--------//////////////-------->
-
-        <header>
+    <header class="row">
 
             <!----------Whatsapp-Fixed---------->
-
-            <div class="whatsapp-fixed">
-                <img src="images/icons/whatsapp.png" alt="Icono de WhatsApp">
+        
+            <div>
+                <img src="images/icons/whatsapp.png" alt="Icono de WhatsApp" class="whatsapp-fixed">
             </div>
 
             <!----------Header-Logo---------->
 
-            <div> 
+            <div class="col center"> 
                 <a href="index.html"><img src="images/logo.png" alt="Logo de la Marca Digital Duo"></a>
             </div>
 
-            <!----------Header-User---------->
+    </header>
 
-            <div class="header-user">
+    <!----------/////////////////---------->
+    <!---------///_Navigator_///--------->
+    <!--------/////////////////-------->
 
-                <div>
-                    <img src="images/icons/user.png" alt="Icono de Usuario No Registrado a la Página" class="header-user-icon">
-                    <ul>
-                        <li value="username">Anónimo</li>
-                        <li><a href="pages/login.html">Iniciar sesión</a></li>
-                        <li><a href="pages/registration.html">Registrarse</a></li>
-                    </ul>
-                </div>
+    <div class="row">
 
-                <div>
-                    <img src="images/icons/menu.png" alt="Icono de Menú de Navegador Desplegable" class="header-menu-icon">
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <!---------- User Menu ---------->
+
+            <div class="dropdown">
+
+                <a class="btn btn-secondary dropdown-toggle button" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/icons/user.png" alt="Icono de Usuario No Registrado a la Página" class="header-user-icon"></a>
+            
+                <ul class="dropdown-menu weight fz" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Anónimo</a></li>
+                    <li><a class="dropdown-item" href="pages/login.html">Iniciar sesión</a></li>
+                    <li><a class="dropdown-item" href="pages/registration.html">Registrarse</a></li>
+                </ul>
 
             </div>
-        </header>
 
-        <!----------/////////////////---------->
-        <!---------///_Navigator_///--------->
-        <!--------/////////////////-------->
+            <!---------- Burger Menu ---------->
 
-        <nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <ul class="weight">
-                <li><a href="pages/about-us.html">Nosotros</a></li>
-                <li class="nav-services">
-                    Servicios
-                        <ul class="nav-submenu weight">
-                            <li><a href="pages/advices.html">Asesorias</a></li>
-                            <li><a href="pages/design-your-brand.html">Diseña tu marca</a></li>
-                            <li><a href="pages/design-your-web.html">Diseño web</a></li>
-                            <li><a href="pages/social-media-management.html">Gestión de redes sociales</a></li>
-                            <li><a href="pages/advertising.html">Publicidad</a></li>
-                            <li><a href="pages/e-commerce.html">E-commerce</a></li>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+
+                <ul class="navbar-nav weight fz">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="pages/about-us.html">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+
+                        <ul class="dropdown-menu weight fz" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="pages/advices.html">Asesorias</a></li>
+                            <li><a class="dropdown-item" href="pages/design-your-brand.html">Diseña tu marca</a></li>
+                            <li><a class="dropdown-item" href="pages/design-your-web.html">Diseño web</a></li>
+                            <li><a class="dropdown-item" href="pages/social-media-management.html">Gestión de redes sociales</a></li>
+                            <li><a class="dropdown-item" href="pages/advertising.html">Publicidad</a></li>
+                            <li><a class="dropdown-item" href="pages/e-commerce.html">E-commerce</a></li>
                         </ul>
-                </li>
-                <li><a href="pages/courses-workshops.html">Cursos</a></li>
-                <li><a href="pages/resources.html">Recursos</a></li>
-                <li><a href="pages/contact-us.html">Contacto</a></li>
-            </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/courses-workshops.html">Cursos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/resources.html">Recursos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contact-us.html">Contacto</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
 
         </nav>
 
-        <!----------////////////---------->
-        <!---------///_MAIN_///--------->
-        <!--------////////////-------->
+    </div>
 
-        <main class="home-main-grid">
+    <!----------////////////---------->
+    <!---------///_MAIN_///--------->
+    <!--------////////////-------->
 
-            <!----------Services---------->
+    <main class="row home-main-grid">
 
-            <section id="home-main-grid-services-container">
+        <!----------Services---------->
 
-                <h1>Impulsa Tu Presencia Online</h1>
+        <section id="home-main-grid-services-container">
 
-                <h2>Estrategias • Contenidos • Publicidad</h2>
+            <h1>Impulsa Tu Presencia Online</h1>
 
-                <div class="home-main-grid-services-container-grid">
+            <h2>Estrategias • Contenidos • Publicidad</h2>
 
-                    <div class="home-main-grid-services-container-grid-item">
-                        <a href="pages/advices.html"><img src="images/icons/advices.png" alt="Icono del Servicio de Asesorias. Lapicera Escribiendo sobre Anotador"></a>
-                        <figcaption>Asesorias</figcaption>
-                        <p>Trabajamos estrategias relacionadas con tu proyecto y sus objetivos</p>
-                    </div>
+            <div class="home-main-grid-services-container-grid">
 
-                    <div class="home-main-grid-services-container-grid-item">
-                        <a href="pages/design-your-brand.html"><img src="images/icons/design-your-brand.png" alt="Icono del Servicio de Diseño de la Marca. Lapiz y Regla Dispuestos en Forma de X"></a>
-                        <figcaption>Diseño de marca</figcaption>
-                        <p>Enamorá a tus seguidores y clientes con un estilo e identidad cautivadora</p>
-                    </div>
-
-                    <div class="home-main-grid-services-container-grid-item">
-                        <a href="pages/design-your-web.html"><img src="images/icons/design-your-web.png" alt="Icono del Servicio de Diseño Web. Imágen pequeña de una Página Web con sus Secciones más Representativas"></a>
-                        <figcaption>Diseño web</figcaption>
-                        <p>Adaptamos tus ideas y diseño a una web funcional, práctica y con personalidad para cualquier dispositivo</p>
-                    </div>
-
-                    <div class="home-main-grid-services-container-grid-item">
-                        <a href="pages/social-media-management.html"><img src="images/icons/social-media-management.png" alt="Icono del Servicio de Gestión de Redes Sociales. Tres Dispositivos Móviles dejándose ver Superpuestos entre si"></a>
-                        <figcaption>Gestión de redes</figcaption>
-                        <p>Armemos un plan a medida: estrategias, construcción, contenido y... ¡mucho más!</p>
-                    </div>
-
-                    <div class="home-main-grid-services-container-grid-item">
-                        <a href="pages/advertising.html"><img src="images/icons/advertising.png" alt="Icono del Servicio de Publicidad. Imágen de un Megáfono"></a>
-                        <figcaption>Publicidad</figcaption>
-                        <p>Creamos campañas 100% optimizadas pensando cada detalle para llegar al público perfecto</p>
-                    </div>
-
-                    <div class="home-main-grid-services-container-grid-item">
-                        <a href="pages/e-commerce.html"><img src="images/icons/e-commerce.png" alt="Icono del servicio de E-commerce. Barras Blancas de Gráfico de Estadíticas con Fondo Circular de Color Salmón"></a>
-                        <figcaption>E-commerce</figcaption>
-                        <p>Potenciá tu negocio online para impulsar tus ventas</p>
-                    </div>
-            
-                </div>
-            </section>    
-
-            <!----------Resources---------->
-
-            <section id="home-main-grid-resources-container">
-                <h2 class="animation-2">Comunidad • Ideas • Identidad</h2>
-            </section>
-
-            <!----------Courses and Workshops---------->
-
-            <section id="home-main-grid-courses-workshops-container">
-
-                    <h2 class="black-border white">Cursos y Talleres Online</h2>
-   
-                <div class="home-main-grid-courses-workshops-container-grid">
-
-                    <div class="home-main-courses-workshop-display-images">
-                        <img src="images/workshop-1.png" alt="Titulo de Conoce a tu cliente ideal en color blanco con fondo negro sobre una foto con lamina superpuesta de color celeste de un escritorio que contiene lentes, cuadernos y monitor">
-                    </div>
-
-                    <div class="home-main-courses-workshop-display-images">
-                        <img src="images/workshop-2.png" alt="Titulo de Crea tu calendario de contenidos en color blanco con fondo negro sobre una foto con lamina superpuesta de color celeste de una agenda">  
-                    </div>
-
-                    <div class="home-main-courses-workshop-display-images">
-                        <img src="images/course-1.png" alt="Titulo de Community manager en color blanco con fondo negro sobre una foto con lamina superpuesta de color violeta de las manos de una persona sosteniendo un celular frente a una notebook">
-                    </div>
-
-                    <div class="home-main-courses-workshop-display-images">
-                        <img src="images/course-2.png" alt="Titulo de Marketing de contenidos en color blanco con fondo negro sobre una foto con lamina superpuesta de color violeta de un escritorio con un monitor cuya pantalla muestra red conceptual del tema de marketing">
-                    </div>
-                    
+                <div class="home-main-grid-services-container-grid-item">
+                    <a href="pages/advices.html"><img src="images/icons/advices.png" alt="Icono del Servicio de Asesorias. Lapicera Escribiendo sobre Anotador"></a>
+                    <figcaption>Asesorias</figcaption>
+                    <p>Trabajamos estrategias relacionadas con tu proyecto y sus objetivos</p>
                 </div>
 
-                <div class="link-2colors">
-                    <a href="pages/courses-workshops.html"><p>Ver Todos los Cursos y Talleres</p></a>
+                <div class="home-main-grid-services-container-grid-item">
+                    <a href="pages/design-your-brand.html"><img src="images/icons/design-your-brand.png" alt="Icono del Servicio de Diseño de la Marca. Lapiz y Regla Dispuestos en Forma de X"></a>
+                    <figcaption>Diseño de marca</figcaption>
+                    <p>Enamorá a tus seguidores y clientes con un estilo e identidad cautivadora</p>
                 </div>
 
-            </section>
+                <div class="home-main-grid-services-container-grid-item">
+                    <a href="pages/design-your-web.html"><img src="images/icons/design-your-web.png" alt="Icono del Servicio de Diseño Web. Imágen pequeña de una Página Web con sus Secciones más Representativas"></a>
+                    <figcaption>Diseño web</figcaption>
+                    <p>Adaptamos tus ideas y diseño a una web funcional, práctica y con personalidad para cualquier dispositivo</p>
+                </div>
 
-            <!----------Newsletter---------->
+                <div class="home-main-grid-services-container-grid-item">
+                    <a href="pages/social-media-management.html"><img src="images/icons/social-media-management.png" alt="Icono del Servicio de Gestión de Redes Sociales. Tres Dispositivos Móviles dejándose ver Superpuestos entre si"></a>
+                    <figcaption>Gestión de redes</figcaption>
+                    <p>Armemos un plan a medida: estrategias, construcción, contenido y... ¡mucho más!</p>
+                </div>
 
-            <section id="home-main-grid-newsletter-container">
+                <div class="home-main-grid-services-container-grid-item">
+                    <a href="pages/advertising.html"><img src="images/icons/advertising.png" alt="Icono del Servicio de Publicidad. Imágen de un Megáfono"></a>
+                    <figcaption>Publicidad</figcaption>
+                    <p>Creamos campañas 100% optimizadas pensando cada detalle para llegar al público perfecto</p>
+                </div>
 
-                <h2>Suscribite</h2>
+                <div class="home-main-grid-services-container-grid-item">
+                    <a href="pages/e-commerce.html"><img src="images/icons/e-commerce.png" alt="Icono del servicio de E-commerce. Barras Blancas de Gráfico de Estadíticas con Fondo Circular de Color Salmón"></a>
+                    <figcaption>E-commerce</figcaption>
+                    <p>Potenciá tu negocio online para impulsar tus ventas</p>
+                </div>
+        
+            </div>
+        </section>    
 
-                <p class="weight">¿Querés estar al día con lo que pasa en el mundo de las redes sociales?</p>
-                <p>Suscribite y accede antes que nadie a toda la información, recursos gratuitos, descuentos y cursos para emprendedores.</p>
+        <!----------Resources---------->
 
-                <form>
-                    <input type="text" placeholder="Ingrese su nombre">
-                    <input type="text" placeholder="Tu e-mail">
-                    <input type="submit" value="Enviar">
-                </form>
+        <section id="home-main-grid-resources-container">
+            <h2 class="animation-2">Comunidad • Ideas • Identidad</h2>
+        </section>
 
-            </section>
+        <!----------Courses and Workshops---------->
 
-        </main>
+        <section id="home-main-grid-courses-workshops-container">
 
-        <!----------//////////////---------->
-        <!---------///_FOOTER_///--------->
-        <!--------//////////////-------->
+                <h2 class="black-border white">Cursos y Talleres Online</h2>
 
-        <footer>
+            <div class="home-main-grid-courses-workshops-container-grid">
 
-            <div class="footer">
+                <div class="home-main-courses-workshop-display-images">
+                    <img src="images/workshop-1.png" alt="Titulo de Conoce a tu cliente ideal en color blanco con fondo negro sobre una foto con lamina superpuesta de color celeste de un escritorio que contiene lentes, cuadernos y monitor">
+                </div>
+
+                <div class="home-main-courses-workshop-display-images">
+                    <img src="images/workshop-2.png" alt="Titulo de Crea tu calendario de contenidos en color blanco con fondo negro sobre una foto con lamina superpuesta de color celeste de una agenda">  
+                </div>
+
+                <div class="home-main-courses-workshop-display-images">
+                    <img src="images/course-1.png" alt="Titulo de Community manager en color blanco con fondo negro sobre una foto con lamina superpuesta de color violeta de las manos de una persona sosteniendo un celular frente a una notebook">
+                </div>
+
+                <div class="home-main-courses-workshop-display-images">
+                    <img src="images/course-2.png" alt="Titulo de Marketing de contenidos en color blanco con fondo negro sobre una foto con lamina superpuesta de color violeta de un escritorio con un monitor cuya pantalla muestra red conceptual del tema de marketing">
+                </div>
+                
+            </div>
+
+            <div class="link-2colors">
+                <a href="pages/courses-workshops.html"><p>Ver Todos los Cursos y Talleres</p></a>
+            </div>
+
+        </section>
+
+        <!----------Newsletter---------->
+
+        <section id="home-main-grid-newsletter-container">
+
+            <h2>Suscribite</h2>
+
+            <p class="weight">¿Querés estar al día con lo que pasa en el mundo de las redes sociales?</p>
+            <p>Suscribite y accede antes que nadie a toda la información, recursos gratuitos, descuentos y cursos para emprendedores.</p>
+
+            <form>
+                <input type="text" placeholder="Ingrese su nombre">
+                <input type="text" placeholder="Tu e-mail">
+                <input type="submit" value="Enviar">
+            </form>
+
+        </section>
+
+    </main>
+
+    <!----------//////////////---------->
+    <!---------///_FOOTER_///--------->
+    <!--------//////////////-------->
+
+    <footer class="row footer">
+
+        <div class="container-fluid">
+
+            <div class="row">
 
                 <!----------Footer-Contact-Data---------->
 
-                <div class="footer-contact-data">
+                <div class="col-xs-4 col-md-4 center footer-contact-data">
                     <a href="index.html"><img src="images/logo.png" alt="Logo de la Marca Digital Duo"></a>
                     <div>
-                        <ul>
+                        <ul class="p-0">
                             <li>Argentina</li>
                             <li>Gral. San Martin</li>
                             <li>+54 11 3888-9974</li>
@@ -219,9 +242,9 @@
 
                     <!----------Footer-Services---------->
 
-                <div class="footer-services">
+                <div class="col-xs-4 col-md-4 footer-services">
                     <h4>Servicios</h4>
-                    <ul>
+                    <ul class="p-0">
                         <li><a href="pages/advices.html">Asesorias</a></li>
                         <li><a href="pages/design-your-brand.html">Diseña tu marca</a></li>
                         <li><a href="pages/design-your-web.html">Diseño web</a></li>
@@ -233,7 +256,7 @@
 
                 <!----------Footer-Webs---------->
 
-                <div class="footer-webs">
+                <div class="col-xs-4 col-md-4 footer-webs">
 
                     <h4>Seguinos en las redes</h4>
         
@@ -251,27 +274,30 @@
 
             </div>
 
-            <!----------Footer-legal---------->
+        </div>
 
-            <div class="footer-legal">
-                <ul>
+        <!----------Footer-legal---------->
+
+        <div class="container-fluid footer-legal">
+
+            <div class="row justify-content-center">
+
+                <ul class="col-xs-5">
                     <a href="pages/privacy-policy.html"><li>Política de privacidad</li></a>
                     <li>Política de cookies</li>
                     <li>Digital Duo 2022 ®</li>
                 </ul>
+
             </div>
 
-        </footer>
-    </div>
+        </div>
 
-    <script type="module">
-        import { Toast } from 'bootstrap.esm.min.js'
-      
-        Array.from(document.querySelectorAll('.toast'))
-          .forEach(toastNode => new Toast(toastNode))
-      </script>
+    </footer>
+
+    <!----------Link to Java Bootstrap---------->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
-
 
 </html>
