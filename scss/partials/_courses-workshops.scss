@@ -1,0 +1,26 @@
+/*----------/////////////////////////////----------*/
+/*---------///_COURSES AND WORKSHOPS_///---------*/
+/*--------/////////////////////////////--------*/
+
+.courses-workshops-main-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses-workshops-main-display-workshops {
+    margin-bottom: 2rem;
+}
+
+.courses-workshops-main-display-courses {
+    margin-bottom: 2rem;
+}
+
+.courses-workshops-separation-ends {
+    margin-bottom: 2rem;
+}
+
+.courses-workshops-separation-middle {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,38 @@
+/*----------//////////////////----------*/
+/*---------///_CONTACT US_///---------*/
+/*--------//////////////////--------*/
+
+.contact-us-main {
+    background-image: url(../images/background-contact-us.png);
+    background-size: cover;
+}
+
+.contact-us-main-text-plus-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us-main-text-plus-form p {
+    max-width: 30rem;
+}
+
+.contact-us-main-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-main-form input {
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
+
+.contact-us-main-form select {
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
+
+.contact-us-main-form textarea {
+    margin: 0.5rem;
+    padding: 0.25rem;
+}

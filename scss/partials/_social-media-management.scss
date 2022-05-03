@@ -1,0 +1,79 @@
+/*----------///////////////////////////////----------*/
+/*---------///_SOCIAL MEDIA MANAGEMENT_///---------*/
+/*--------///////////////////////////////--------*/
+
+/*----------SMM-Main-Grid----------*/
+
+.smm-main-grid {
+    display: grid;
+    grid-template-areas: 
+    "smm-main-grid-intro-container"
+    "smm-main-grid-services-container"
+    "smm-main-grid-plans-container"
+    ;
+}
+
+section#smm-main-grid-intro-container {
+    grid-area: smm-main-grid-intro-container;
+}
+
+section#smm-main-grid-services-container {
+    grid-area: smm-main-grid-services-container;
+}
+
+section#smm-main-grid-plans-container {
+    grid-area: smm-main-grid-plans-container;
+}
+
+/*--------------------------------------*/
+
+/*--------------Intro---------------*/
+
+section#smm-main-grid-intro-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.smm-main-img-1 {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+}
+
+/*--------------Services---------------*/
+
+section#smm-main-grid-services-container {
+    display: flex;
+    flex-direction: column;
+}
+
+section#smm-main-grid-services-container ul {
+    list-style-type: disc;
+    text-align: center;
+}
+
+.smm-main-img-2 {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+}
+
+/*--------------Plans---------------*/
+
+section#smm-main-grid-plans-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.smm-main-grid-plans-container-table {
+    display: none;
+}
+
+/*--------------Table---------------*/
+
+.padding-table {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}

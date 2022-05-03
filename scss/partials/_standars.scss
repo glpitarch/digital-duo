@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*----------/_Standars_/----------*/
+
+.button {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+/*--------------------*/
+
+.center {
+    text-align: center;
+}
+
+.line-height {
+    line-height: 2rem;
+}
+
+.margin-top {
+    margin-top: 2rem;
+}
+
+.margin-bottom {
+    margin-bottom: 2rem;
+}
+
+.margin-top-bottom {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.black-border {
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+}
+
+.white {
+    color: white;
+}
+
+.weight {
+    font-weight: bold;
+}
+
+.fz {
+    font-size: 1.2rem;
+}

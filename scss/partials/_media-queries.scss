@@ -1,0 +1,222 @@
+/*----------/////////////////////----------*/
+/*---------///_MEDIA QUERIES_///---------*/
+/*--------/////////////////////--------*/
+
+@media (min-width: 1440px) {
+
+    /*----------/////////////////////////////----------*/
+    /*---------///_COURSES AND WORKSHOPS_///---------*/
+    /*--------/////////////////////////////--------*/
+
+    .courses-workshops-main-display {
+        display: grid;
+        grid-template-columns: 75rem;
+        grid-template-rows: repeat(2, 70rem);
+    }
+
+    .courses-workshops-main-display-subgrid {
+        display: grid;
+        grid-template-columns: repeat(3,25rem);
+        grid-template-rows: repeat(2, 30rem);
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /*----------//////////////----------*/
+    /*---------///_HEADER_///---------*/
+    /*--------//////////////--------*/
+
+    /*----------Whatsapp Fixed----------*/
+
+    .whatsapp-fixed {
+    display: inline-block;
+    position: fixed;
+}
+
+    /*----------///////////----------*/
+    /*---------///_NAV_///---------*/
+    /*--------///////////--------*/
+
+    nav {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        background-color: black;
+    }
+
+    /*----------//////////////----------*/
+    /*---------///_FOOTER_///---------*/
+    /*--------//////////////--------*/
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-bottom: 1rem;
+    }
+
+    /*----------Home-Footer-Legal----------*/
+
+    .footer-legal {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+    }
+
+    .footer-legal ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-legal ul li {
+        display: inline-block;
+        text-align: center;
+        color: white;
+        padding: 0.40rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    /*----------////////////----------*/
+    /*---------///_HOME_///---------*/
+    /*--------////////////--------*/
+
+    /*----------////////////----------*/
+    /*---------///_MAIN_///---------*/
+    /*--------////////////--------*/
+
+    /*----------Home-Main-Grid----------*/
+
+    .home-main-grid {
+        min-height: 180rem;
+        max-height: fit-content;
+    }
+
+    /*----------Home-Main-Services----------*/
+
+    /*----------Grid----------*/
+
+    .home-main-grid-services-container-grid {
+        display: grid;
+        grid-template-rows: repeat(3, 12.5rem);
+        grid-template-columns: repeat(2, 12.5rem);
+        grid-gap: 3rem 5rem;
+        justify-content: center;
+    }
+        
+    section#home-main-grid-services-container h2 {
+        margin-bottom: 2rem;
+    }
+
+    /*----------Home-Main-Courses and Workshops Online----------*/
+
+    section#home-main-grid-courses-workshops-container {
+        min-height: 60rem;
+        max-width: 40rem;
+        justify-self: center;
+    }
+
+    .home-main-grid-courses-workshops-container-grid {
+        grid-template-columns: 18.75rem 18.75rem;
+        margin-bottom: 2rem;
+    }
+
+    /*----------home-main-grid-newsletter----------*/
+
+    section#home-main-grid-newsletter-container {
+        background-attachment: fixed;
+    }
+
+    /*----------///////////////////////////////----------*/
+    /*---------///_SOCIAL MEDIA MANAGEMENT_///---------*/
+    /*--------///////////////////////////////--------*/
+
+    .smm-main-grid {
+        align-content: space-around;
+    }
+
+    /*--------------Intro---------------*/
+
+    section#smm-main-grid-intro-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .smm-main-grid-intro-container-parraf {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        max-width: 30rem;
+        max-height: 25rem;
+    }
+
+    .smm-main-img-1 {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    /*--------------Services---------------*/
+
+    section#smm-main-grid-services-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .smm-main-img-2 {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    /*--------------Plans---------------*/
+
+    .smm-main-grid-plans-container-table {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    /*----------///////////////----------*/
+    /*---------///_ADVICES_///---------*/
+    /*--------///////////////--------*/
+
+    .advices-main {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .advices-main p {
+        max-width: 25rem;
+    }
+
+    .advices-main img {
+        max-width: 35rem;
+        max-height: 35rem;
+    }
+    
+    .advices-main-text-plus-imgs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .advices-main-imgs-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 12.5rem);
+        grid-template-rows: repeat(2, 6.2rem);
+        justify-content: center;
+    }
+
+    /*----------/////////////////////////////----------*/
+    /*---------///_COURSES AND WORKSHOPS_///---------*/
+    /*--------/////////////////////////////--------*/
+
+    .courses-workshops-main-display {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}

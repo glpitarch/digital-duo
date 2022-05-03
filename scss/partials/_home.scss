@@ -1,0 +1,155 @@
+/*-------------////////////-----------*/
+/*------------///_HOME_///------------*/
+/*-----------////////////-------------*/
+
+/*----------Home-Main----------*/
+
+/*----------Home-Main-Grid----------*/
+
+.home-main-grid {
+    display: grid;
+    grid-template-areas: 
+    "home-main-grid-services-container"
+    "home-main-grid-resources-container"
+    "home-main-grid-courses-workshops-container"
+    "home-main-grid-newsletter-container"
+    ;
+    min-height: 270rem;
+    align-content: space-around;
+}
+
+section#home-main-grid-services-container {
+    grid-area: home-main-grid-services-container;
+}
+
+section#home-main-grid-resources-container {
+    grid-area: home-main-grid-resources-container;
+}
+
+section#home-main-grid-courses-workshops-container {
+    grid-area: home-main-grid-courses-workshops-container;
+}
+
+section#home-main-grid-newsletter-container {
+    grid-area: home-main-grid-newsletter-container;
+}
+
+/*------------------------------*/
+
+/*----------Home-Main-Services----------*/
+
+section#home-main-grid-services-container h1 {
+    font-size: 1.5625rem;
+    text-align: center;
+}
+
+section#home-main-grid-services-container h2 {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.home-main-grid-services-container-grid-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.625rem;
+}
+
+.home-main-grid-services-container-grid-item figcaption{
+    font-weight: bold;
+    margin-bottom: 0.625rem;
+}
+
+.home-main-grid-services-container-grid-item p {
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/*----------home-main-grid-resources----------*/
+
+section#home-main-grid-resources-container {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/home-resources.png);
+    background-size: cover;
+    min-height: 20rem;
+}
+
+section#home-main-grid-resources-container h2{
+    align-self: center;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: white;
+    opacity: 75%;
+}
+
+/*----------Home-Main-Courses and Workshops Online----------*/
+
+section#home-main-grid-courses-workshops-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 115rem;
+}
+
+section#home-main-grid-courses-workshops-container h2 {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.home-main-grid-courses-workshops-container-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 25rem);
+    grid-gap: 0.625rem;
+    justify-content: center;
+}
+
+.home-main-courses-workshop-display-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 25rem;
+}
+
+
+/*----------home-main-grid-newsletter----------*/
+
+section#home-main-grid-newsletter-container {
+    display: grid;
+    grid-template-columns: 15rem;
+    grid-template-rows: 5rem 7rem 8rem 7rem;
+    justify-content: end;
+    background-image: url(../images/newsletter.png);
+    background-size: cover;
+    min-height: 30rem;
+}
+
+section#home-main-grid-newsletter-container h2 {
+    text-align: center;
+    align-self: center;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+section#home-main-grid-newsletter-container p {
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: white;
+    opacity: 75%;
+}
+
+section#home-main-grid-newsletter-container form {
+    text-align: center;
+    min-height: 8rem;
+}
+
+section#home-main-grid-newsletter-container form input {
+    text-align: center;
+    margin: 0.5rem;
+}

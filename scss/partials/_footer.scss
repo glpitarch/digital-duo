@@ -1,0 +1,79 @@
+/*------------//////////////----------*/
+/*-----------///_FOOTER_///-----------*/
+/*----------//////////////------------*/
+
+footer {
+    border-top-style: solid;
+    border-top-color: black;
+    background: linear-gradient(90deg, rgb(75, 191, 197) 0%, rgba(125,82,255,0) 23%, rgb(178, 140, 253) 100%);
+}
+
+/*----------Home-Footer-Contact Data----------*/
+
+.footer-contact-data {
+    ul {
+
+    }
+        li {
+            list-style-type: none;
+            padding: 0.25rem;
+        }
+}
+
+/*----------Home-Footer-Services----------*/
+
+.footer-services {
+    text-align: center;
+        h4 {
+            background-color: black;
+            color: white;
+            padding: 0.25rem;
+        }
+            ul {
+
+            }
+                li {
+                    list-style: none;
+                    padding: 0.25rem;
+                
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+                        a {
+                            text-decoration: none;
+                            color: black;
+                        }
+}
+
+/*----------Home-Footer-Webs----------*/
+
+.footer-webs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        h4 {
+            background-color: black;
+            color: white;
+            padding: 0.40rem;
+        }
+            div {
+                flex-direction: row;
+                padding: 0.25rem;
+            }
+}
+
+/*----------Home-Footer-Legal----------*/
+
+.footer-legal {
+    background-color: black;
+        ul {
+
+        }
+            li {
+                text-align: center;
+                color: white;
+                padding: 0.40rem;
+                list-style: none;
+            }
+}
