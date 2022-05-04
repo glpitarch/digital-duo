@@ -1,3 +1,5 @@
+/*----------RESET----------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -5,11 +7,16 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-/*----------/_Standars_/----------*/
+/*--------------------*/
 
 .button {
     background-color: #f8f9fa;
     border-color: #f8f9fa;
+}
+
+.spacing-form {
+    margin: 0.5rem;
+    padding: 0.25rem;
 }
 
 /*--------------------*/
@@ -19,20 +26,20 @@
 }
 
 .line-height {
-    line-height: 2rem;
+    line-height: $std;
 }
 
 .margin-top {
-    margin-top: 2rem;
+    margin-top: $std;
 }
 
 .margin-bottom {
-    margin-bottom: 2rem;
+    margin-bottom: $std;
 }
 
 .margin-top-bottom {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: $std;
+    margin-bottom: $std;
 }
 
 .black-border {

@@ -6,18 +6,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
 
-.advices-main p {
-    max-width: 20rem;
-}
-
-.advices-main img {
-    max-width: 20rem;
-    max-height: 25rem;
-    border-style: solid;
-    border-color: white;
-    border-radius: 1rem;
+        p {
+            max-width: 20rem;
+        }
+            img {
+                max-width: 20rem;
+                max-height: 25rem;
+                border-style: solid;
+                border-color: white;
+                border-radius: 1rem;
+            }
 }
 
 .advices-main-imgs-grid {

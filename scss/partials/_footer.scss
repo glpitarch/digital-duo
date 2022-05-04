@@ -70,10 +70,13 @@ footer {
         ul {
 
         }
-            li {
-                text-align: center;
-                color: white;
-                padding: 0.40rem;
-                list-style: none;
+            a {
+                text-decoration: none;
             }
+                li {
+                    text-align: center;
+                    color: white;
+                    padding: 0.40rem;
+                    list-style: none;
+                }
 }

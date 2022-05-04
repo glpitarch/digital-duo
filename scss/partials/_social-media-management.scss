@@ -34,12 +34,6 @@ section#smm-main-grid-intro-container {
     flex-direction: column;
 }
 
-.smm-main-img-1 {
-    width: 300px;
-    height: 300px;
-    align-self: center;
-}
-
 /*--------------Services---------------*/
 
 section#smm-main-grid-services-container {
@@ -47,12 +41,9 @@ section#smm-main-grid-services-container {
     flex-direction: column;
 }
 
-section#smm-main-grid-services-container ul {
-    list-style-type: disc;
-    text-align: center;
-}
+/*--------------------------------------*/
 
-.smm-main-img-2 {
+.smm-main-imgs {
     width: 300px;
     height: 300px;
     align-self: center;

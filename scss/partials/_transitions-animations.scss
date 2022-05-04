@@ -1,4 +1,31 @@
-/*----------Animations----------*/
+/*------------/////////////////////////----------*/
+/*-----------///_GRAL. TRANSITIONS_///-----------*/
+/*----------/////////////////////////------------*/
+
+.link-2colors {
+    text-align: center;
+        a {
+
+        }
+            p {
+                display: inline-block;
+                border-style: solid;
+                border-radius: 1rem;
+                padding: $std;
+                background-color: #00c2cb;
+                color: black;
+                border-color: white;
+
+                    &:hover {
+                        background-color: #8c52ff;
+                        color: white;
+                    }
+            }
+}
+
+/*------------//////////////////----------*/
+/*-----------///_ANIMATIONS_///-----------*/
+/*----------//////////////////------------*/
 
 .whatsapp-fixed {
     animation-name: animation-1;
@@ -6,7 +33,6 @@
     animation-timing-function: ease-in-out;
     animation-duration: 5s;
     padding: 1.5rem;
-    
 }
 
 @keyframes animation-1 {
@@ -44,9 +70,8 @@
 
 @keyframes animation-2 {
     0% {
-        font-size: 2rem;
+        font-size: $std;
     }
-
 
     25% {
         font-size: 1.5rem;
@@ -55,7 +80,7 @@
     }
 
     50% {
-        font-size: 2rem;
+        font-size: $std;
         background-color: white;
         color: black;
     }
@@ -67,7 +92,7 @@
     }
 
     100% {
-        font-size: 2rem;
+        font-size: $std;
         background-color: white;
         color: black;
     }
@@ -75,11 +100,13 @@
 
 /* ----------------------------------- */
 
-.footer-webs img:hover {
+.footer-webs {
+    img:hover {
     animation-name: animation-3;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-duration: 1.5s;
+    }
 }
 
 @keyframes animation-3 {

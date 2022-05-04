@@ -38,14 +38,15 @@ section#home-main-grid-newsletter-container {
 
 /*----------Home-Main-Services----------*/
 
-section#home-main-grid-services-container h1 {
-    font-size: 1.5625rem;
-    text-align: center;
-}
-
-section#home-main-grid-services-container h2 {
-    font-size: 1.25rem;
-    text-align: center;
+section#home-main-grid-services-container {
+    h1 {
+        font-size: 1.5625rem;
+        text-align: center;
+    }
+        h2 {
+            font-size: 1.25rem;
+            text-align: center;
+        }
 }
 
 .home-main-grid-services-container-grid-item {
@@ -53,16 +54,15 @@ section#home-main-grid-services-container h2 {
     flex-direction: column;
     text-align: center;
     padding: 0.625rem;
-}
 
-.home-main-grid-services-container-grid-item figcaption{
-    font-weight: bold;
-    margin-bottom: 0.625rem;
-}
-
-.home-main-grid-services-container-grid-item p {
-    font-style: italic;
-    line-height: 1.5;
+        figcaption {
+            font-weight: bold;
+            margin-bottom: 0.625rem;
+        }
+            p {
+                font-style: italic;
+                line-height: 1.5;
+            }
 }
 
 /*----------home-main-grid-resources----------*/
@@ -73,16 +73,16 @@ section#home-main-grid-resources-container {
     background-image: url(../images/home-resources.png);
     background-size: cover;
     min-height: 20rem;
-}
 
-section#home-main-grid-resources-container h2{
-    align-self: center;
-    text-align: center;
-    background-color: white;
-    border-style: solid;
-    border-radius: 1rem;
-    border-color: white;
-    opacity: 75%;
+        h2 {
+            align-self: center;
+            text-align: center;
+            background-color: white;
+            border-style: solid;
+            border-radius: 1rem;
+            border-color: white;
+            opacity: 75%;
+        }
 }
 
 /*----------Home-Main-Courses and Workshops Online----------*/
@@ -92,11 +92,11 @@ section#home-main-grid-courses-workshops-container {
     flex-direction: column;
     justify-content: space-between;
     min-height: 115rem;
-}
 
-section#home-main-grid-courses-workshops-container h2 {
-    font-size: 1.25rem;
-    text-align: center;
+        h2 {
+            font-size: 1.25rem;
+            text-align: center;
+        }
 }
 
 .home-main-grid-courses-workshops-container-grid {
@@ -113,7 +113,6 @@ section#home-main-grid-courses-workshops-container h2 {
     height: 25rem;
 }
 
-
 /*----------home-main-grid-newsletter----------*/
 
 section#home-main-grid-newsletter-container {
@@ -124,32 +123,29 @@ section#home-main-grid-newsletter-container {
     background-image: url(../images/newsletter.png);
     background-size: cover;
     min-height: 30rem;
-}
-
-section#home-main-grid-newsletter-container h2 {
-    text-align: center;
-    align-self: center;
-    line-height: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-section#home-main-grid-newsletter-container p {
-    text-align: center;
-    line-height: 1.5rem;
-    margin-bottom: 1.5rem;
-    background-color: white;
-    border-style: solid;
-    border-radius: 1rem;
-    border-color: white;
-    opacity: 75%;
-}
-
-section#home-main-grid-newsletter-container form {
-    text-align: center;
-    min-height: 8rem;
-}
-
-section#home-main-grid-newsletter-container form input {
-    text-align: center;
-    margin: 0.5rem;
+    
+        h2 {
+            text-align: center;
+            align-self: center;
+            line-height: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+            p {
+                text-align: center;
+                line-height: 1.5rem;
+                margin-bottom: 1.5rem;
+                background-color: white;
+                border-style: solid;
+                border-radius: 1rem;
+                border-color: white;
+                opacity: 75%;
+            }
+                form {
+                    text-align: center;
+                    min-height: 8rem;
+                }
+                    input {
+                        text-align: center;
+                        margin: 0.5rem;
+                    }
 }
