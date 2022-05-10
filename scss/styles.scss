@@ -1,41 +1,47 @@
+/*----------//////////////////----------*/
+/*---------///_BOOTSTRAP_////---------*/
+/*--------//////////////////--------*/
+
+@import"./bs/bootstrap";
+
 /*----------/////////////----------*/
 /*---------///_VARs_////---------*/
 /*--------/////////////--------*/
 
-@import"partials/vars";
+@import"./partials/vars";
 
 /*----------/////////////////----------*/
 /*---------///_STANDARS_////---------*/
 /*--------/////////////////--------*/
 
-@import"partials/standars";
+@import"./partials/standars";
 
 /*----------////////////////////////////////----------*/
 /*---------///_TRANSITIONS & ANIMATIONS_///---------*/
 /*--------////////////////////////////////--------*/
 
-@import"partials/transitions-animations";
+@import"./partials/transitions-animations";
 
 /*----------/////////////////////////----------*/
 /*---------///_HEADER-NAV-FOOTER_///---------*/
 /*--------/////////////////////////--------*/
 
-@import"partials/header";
-@import"partials/nav";
-@import"partials/footer";
+@import"./partials/header";
+@import"./partials/nav";
+@import"./partials/footer";
 
 /*----------/////////////----------*/
 /*---------///_PAGES_///---------*/
 /*--------/////////////--------*/
 
-@import"partials/home";
-@import"partials/social-media-management";
-@import"partials/contact-us";
-@import"partials/courses-workshops";
-@import"partials/advices";
+@import"./partials/home";
+@import"./partials/social-media-management";
+@import"./partials/contact-us";
+@import"./partials/courses-workshops";
+@import"./partials/advices";
 
 /*----------/////////////////////----------*/
 /*---------///_MEDIA QUERIES_///---------*/
 /*--------/////////////////////--------*/
 
-@import"partials/media-queries";
+@import"./partials/media-queries";
