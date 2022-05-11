@@ -1,0 +1,9 @@
+@mixin boton-2colors {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 1rem;
+    padding: $std;
+    background-color: #00c2cb;
+    color: black;
+    border-color: white;
+}

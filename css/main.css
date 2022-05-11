@@ -1,6 +1,6 @@
-/*----------//////////////////----------*/
-/*---------///_BOOTSTRAP_////---------*/
-/*--------//////////////////--------*/
+/*----------/////////////////----------*/
+/*---------///_BOOTSTRAP_///---------*/
+/*--------/////////////////--------*/
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -7815,9 +7815,45 @@ textarea.form-control-lg {
 /*----------/////////////----------*/
 /*---------///_VARs_////---------*/
 /*--------/////////////--------*/
-/*----------/////////////////----------*/
-/*---------///_STANDARS_////---------*/
-/*--------/////////////////--------*/
+/*----------//////////////----------*/
+/*---------///_MIXINS_///---------*/
+/*--------//////////////--------*/
+/*----------////////////----------*/
+/*---------///_MAPS_///---------*/
+/*--------////////////--------*/
+.service-advices:hover {
+  background-color: #ff8a8a;
+  border-style: solid;
+  border-radius: 1rem; }
+
+.service-design-brand:hover {
+  background-color: #c0fcff;
+  border-style: solid;
+  border-radius: 1rem; }
+
+.service-design-web:hover {
+  background-color: #96fc96;
+  border-style: solid;
+  border-radius: 1rem; }
+
+.service-sm-manager:hover {
+  background-color: #fcfc89;
+  border-style: solid;
+  border-radius: 1rem; }
+
+.service-advertising:hover {
+  background-color: #fa87eb;
+  border-style: solid;
+  border-radius: 1rem; }
+
+.service-e-commerce:hover {
+  background-color: #9292fe;
+  border-style: solid;
+  border-radius: 1rem; }
+
+/*----------////////////////----------*/
+/*---------///_STANDARS_///---------*/
+/*--------////////////////--------*/
 /*----------RESET----------*/
 * {
   margin: 0;
@@ -7850,6 +7886,11 @@ textarea.form-control-lg {
 .margin-top-bottom {
   margin-top: 2rem;
   margin-bottom: 2rem; }
+
+.white-border, section#home-main-grid-resources-container h2, section#home-main-grid-resources-container .h2, section#home-main-grid-newsletter-container p, .advices-main img {
+  border-style: solid;
+  border-color: white;
+  border-radius: 1rem; }
 
 .black-border {
   border-style: solid;
@@ -8085,9 +8126,6 @@ section#home-main-grid-resources-container {
     align-self: center;
     text-align: center;
     background-color: white;
-    border-style: solid;
-    border-radius: 1rem;
-    border-color: white;
     opacity: 75%; }
 
 /*----------Home-Main-Courses and Workshops Online----------*/
@@ -8131,9 +8169,6 @@ section#home-main-grid-newsletter-container {
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
     background-color: white;
-    border-style: solid;
-    border-radius: 1rem;
-    border-color: white;
     opacity: 75%; }
   section#home-main-grid-newsletter-container form {
     text-align: center;
@@ -8241,10 +8276,7 @@ section#smm-main-grid-plans-container {
     max-width: 20rem; }
   .advices-main img {
     max-width: 20rem;
-    max-height: 25rem;
-    border-style: solid;
-    border-color: white;
-    border-radius: 1rem; }
+    max-height: 25rem; }
 
 .advices-main-imgs-grid {
   display: grid;
@@ -8268,7 +8300,9 @@ section#smm-main-grid-plans-container {
     grid-template-columns: repeat(3, 25rem);
     grid-template-rows: repeat(2, 30rem);
     align-items: center;
-    justify-items: center; } }
+    justify-items: center; }
+  .courses-workshops-separation-ends {
+    margin-top: 2rem; } }
 
 @media (min-width: 768px) {
   /*----------//////////////----------*/
@@ -8311,9 +8345,9 @@ section#smm-main-grid-plans-container {
   /*----------Grid----------*/
   .home-main-grid-services-container-grid {
     display: grid;
-    grid-template-rows: repeat(3, 12.5rem);
-    grid-template-columns: repeat(2, 12.5rem);
-    grid-gap: 3rem 5rem;
+    grid-template-rows: repeat(3, 15rem);
+    grid-template-columns: repeat(2, 15rem);
+    grid-gap: 2.5rem 4rem;
     justify-content: center; }
   section#home-main-grid-services-container h2, section#home-main-grid-services-container .h2 {
     margin-bottom: 2rem; }

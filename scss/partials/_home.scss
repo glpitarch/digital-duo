@@ -78,9 +78,7 @@ section#home-main-grid-resources-container {
             align-self: center;
             text-align: center;
             background-color: white;
-            border-style: solid;
-            border-radius: 1rem;
-            border-color: white;
+            @extend .white-border;
             opacity: 75%;
         }
 }
@@ -135,10 +133,8 @@ section#home-main-grid-newsletter-container {
                 text-align: center;
                 line-height: 1.5rem;
                 margin-bottom: 1.5rem;
+                @extend .white-border;
                 background-color: white;
-                border-style: solid;
-                border-radius: 1rem;
-                border-color: white;
                 opacity: 75%;
             }
                 form {
