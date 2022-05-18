@@ -8415,3 +8415,18 @@ section#smm-main-grid-plans-container {
   .courses-workshops-main-display {
     flex-direction: row;
     justify-content: space-around; } }
+
+@media (max-width: 330px) {
+  * {
+    font-size: small; }
+  #home-main-grid-courses-workshops-container img {
+    width: 230px;
+    height: 300px; }
+  #home-main-grid-newsletter-container {
+    justify-content: center; }
+  .courses-workshops-main-display img {
+    width: 230px;
+    height: 300px; }
+  .smm-main-grid img {
+    width: 230px;
+    height: 280px; } }
