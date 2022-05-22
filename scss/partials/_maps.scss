@@ -1,10 +1,10 @@
 $services: (
-    advices: rgb(255, 138, 138),
-    design-brand: rgb(192, 252, 255),
-    design-web: rgb(150, 252, 150),
-    sm-manager: rgb(252, 252, 137),
-    advertising: rgb(250, 135, 235),
-    e-commerce: rgb(146, 146, 254),
+    advices: rgb(255, 213, 213),
+    design-brand: rgb(213, 253, 255),
+    design-web: rgb(213, 253, 213),
+    sm-manager: rgb(253, 253, 209),
+    advertising: rgb(250, 208, 245),
+    e-commerce: rgb(216, 216, 253),
 );
 
 @each $service, $color in $services {
@@ -13,8 +13,8 @@ $services: (
         &:hover {
             background-color: $color;
             border-style: solid;
-            border-radius: 1rem;
+            border-radius: 10rem;
+            border-color: white;
         }
-        
     }
 }

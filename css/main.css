@@ -7822,34 +7822,40 @@ textarea.form-control-lg {
 /*---------///_MAPS_///---------*/
 /*--------////////////--------*/
 .service-advices:hover {
-  background-color: #ff8a8a;
+  background-color: #ffd5d5;
   border-style: solid;
-  border-radius: 1rem; }
+  border-radius: 10rem;
+  border-color: white; }
 
 .service-design-brand:hover {
-  background-color: #c0fcff;
+  background-color: #d5fdff;
   border-style: solid;
-  border-radius: 1rem; }
+  border-radius: 10rem;
+  border-color: white; }
 
 .service-design-web:hover {
-  background-color: #96fc96;
+  background-color: #d5fdd5;
   border-style: solid;
-  border-radius: 1rem; }
+  border-radius: 10rem;
+  border-color: white; }
 
 .service-sm-manager:hover {
-  background-color: #fcfc89;
+  background-color: #fdfdd1;
   border-style: solid;
-  border-radius: 1rem; }
+  border-radius: 10rem;
+  border-color: white; }
 
 .service-advertising:hover {
-  background-color: #fa87eb;
+  background-color: #fad0f5;
   border-style: solid;
-  border-radius: 1rem; }
+  border-radius: 10rem;
+  border-color: white; }
 
 .service-e-commerce:hover {
-  background-color: #9292fe;
+  background-color: #d8d8fd;
   border-style: solid;
-  border-radius: 1rem; }
+  border-radius: 10rem;
+  border-color: white; }
 
 /*----------////////////////----------*/
 /*---------///_STANDARS_///---------*/
@@ -8141,7 +8147,7 @@ section#home-main-grid-courses-workshops-container {
 .home-main-grid-courses-workshops-container-grid {
   display: grid;
   grid-template-rows: repeat(2, 25rem);
-  grid-gap: 0.625rem;
+  grid-gap: 1rem;
   justify-content: center; }
 
 .home-main-courses-workshop-display-images {

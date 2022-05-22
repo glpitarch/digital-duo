@@ -100,7 +100,7 @@ section#home-main-grid-courses-workshops-container {
 .home-main-grid-courses-workshops-container-grid {
     display: grid;
     grid-template-rows: repeat(2, 25rem);
-    grid-gap: 0.625rem;
+    grid-gap: 1rem;
     justify-content: center;
 }
 
