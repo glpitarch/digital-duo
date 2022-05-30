@@ -70,8 +70,9 @@ section#home-main-grid-services-container {
 section#home-main-grid-resources-container {
     display: flex;
     justify-content: center;
-    background-image: url(../images/home-resources.png);
+    background-image: url(./../images/home-resources.png);
     background-size: cover;
+    background-repeat: no-repeat;
     min-height: 20rem;
 
         h2 {
